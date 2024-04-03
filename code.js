@@ -1,3 +1,6 @@
+// used geeksforgeeks
+// https://www.geeksforgeeks.org/pancake-sorting/
+
 function pancakeSort(array) 
 {
     // only use flip to manipulate the array
