@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/-m0g1A8z)
 # Pancake Sort
 
 There is an abstract data type (ADT) called a *pancake array*, which provides
@@ -29,3 +30,14 @@ What is the asymptotic runtime ($\Theta$) of your algorithm in terms of the
 number of comparisons? What is it in terms of the number of flips? Add your
 answer to this markdown file.
 
+// discussed with Jacob Johnson
+
+Time complexity in terms of number of comparisons: $\Theta (n^2)$
+
+Reasoning:
+findMax() compares each element to the entire array to find the largest value in the array
+
+Time complexity in terms of number of flips: $\Theta (n)$
+
+Reasoning:
+A linear number of flips are performed each loop iteration
