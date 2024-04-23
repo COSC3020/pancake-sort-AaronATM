@@ -30,3 +30,14 @@ What is the asymptotic runtime ($\Theta$) of your algorithm in terms of the
 number of comparisons? What is it in terms of the number of flips? Add your
 answer to this markdown file.
 
+// discussed with Jacob Johnson
+
+Time complexity in terms of number of comparisons: $\Theta (n^2)$
+
+Reasoning:
+findMax() compares each element to the entire array to find the largest value in the array
+
+Time complexity in terms of number of flips: $\Theta (n)$
+
+Reasoning:
+A linear number of flips are performed each loop iteration
